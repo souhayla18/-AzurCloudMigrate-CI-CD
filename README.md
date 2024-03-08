@@ -35,13 +35,10 @@ An intelligently designed data ecosystem, safeguarded by security protocols and 
 
 **Repo Hierarchy:**
 - Root Directory
-  - Azure Pipeline
-    - Ingestion
-    - Transformation
-    - Loading
-    - Reporting
+  - Azure Pipeline.pdf
+    - demo(Ingestion,Transformation,Loading,Reporting)
   - CI/CD Pipeline
-    - (Demo)
+    - demo_ci/cd.pdf
   - Dashboard
     - Power BI Format (adventureworkes.pbit)
     - PDF Format (AdventureWorkDash.png)
@@ -72,7 +69,7 @@ With Azure Synapse as our guide, we connect Microsoft Power BI for data visualiz
 
 To keep track of changes in our Databricks notebooks, we've set up a smooth CI/CD pipeline. It acts like our guiding light, making sure everything runs smoothly and efficiently, and we are up to date. Dive into the Azure Pipeline folder to check out the demo file.
 
-**Remark:** Please explore the demo files within the Azure Pipeline folder.
+**Remark:** Please explore the demo file within the Azure Pipeline folder.
 
 ## 🌟 Credits
 
