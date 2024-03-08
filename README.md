@@ -9,7 +9,6 @@ Welcome to the Azure-powered Data Engineering project with an integrated CI/CD P
     3. [Data Loading](#data-loading)
     4. [Data Reporting](#data-reporting)
     5. [CI/CD Pipeline](#cicd-pipeline)
-3. [Key Insights](#key-insights)
 4. [Credit](#credit)
 5. [Contact](#contact)
 
