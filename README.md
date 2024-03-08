@@ -24,7 +24,7 @@ This project orchestrates a holistic end-to-end data engineering process on Azur
 - **Security & Governance:** Utilizes Azure Key Vault and Azure Active Directory.
 - **CI/CD Pipeline:** Azure DevOps automates deployment, ensuring reliability and efficiency.
 
-**Technological Stack:** PostgreSQL, Azure Data Lake Gen2, Azure Data Factory, Azure Databricks, Azure Synapse Analytics, Azure Key Vault, Azure Active Directory, Azure DevOps, Power BI.
+**Technological Stack:** PostgreSQL, Azure Data Lake Gen2, Azure Data Factory, Azure Databricks,spark, Azure Synapse Analytics, Azure Key Vault, Azure Active Directory, Azure DevOps, Power BI.
 
 **Outcome:**
 An intelligently designed data ecosystem, safeguarded by security protocols and streamlined by an efficient CI/CD pipeline, delivering powerful insights to stakeholders.
@@ -55,7 +55,7 @@ Our journey commences by seamlessly connecting the on-premise PostgreSQL databas
 
 ### 3.2. Data Transformation
 
-Mounting Azure Blob Storage to Databricks, we retrieve raw data from the azure depths of the Data Lake. With the power of the Cluster in Azure Databricks, we embark on an enchanting journey of data cleaning and refinement. The cleaned data finds its sanctuary in the Delta format, optimized for further Azure analysis.
+Mounting Azure Blob Storage to Databricks, we retrieve raw data from the azure depths of the Data Lake. With the power of the spark  Cluster in Azure Databricks, we embark on an enchanting journey of data cleaning and refinement. The cleaned data finds its sanctuary in the Delta format, optimized for further Azure analysis.
 
 ### 3.3. Data Loading
 
