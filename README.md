@@ -1,50 +1,74 @@
 # Azure Data Engineering and CI/CD Pipeline Project
 
-Welcome to Azure-powered Data Engineering project with an integrated CI/CD Pipeline. This project involves migrating the AdventureWorks dataset, transforming it, and deploying insights through Azure services.
-## 📝 Table of Contents
-1. Project Overview
-2. Key Insights
-3. Project Architecture
-3.1. Data Ingestion
-3.2. Data Transformation
-3.3. Data Loading
-3.4. Data Reporting
-3.5. CI/CD pipeline
-5. Contact
+Welcome to Azure-powered Data Engineering project with an integrated CI/CD Pipeline.
+1. [Project Overview](#project-overview)
+2.[Project Architecture](#project-architecture)
+    1. [Data Ingestion](#data-ingestion)
+    2. [Data Transformation](#data-transformation)
+    3. [Data Loading](#data-loading)
+    4. [Data Reporting](#data-reporting)
+    5. [CI/CD pipeline](#cicd-pipeline)
+3. [Key Insights](#key-insights)
+4. [Credit](#credit)
+5. [Contact](#contact)
 ## project overview
+![Project Architecture](project_arch_adv.png)
 🚀 **Project Overview:**
-This is a comprehensive end-to-end data engineering project deployed on the Azure cloud. The journey begins with data ingestion from an on-premise SQL Server to Azure Data Lake, orchestrated seamlessly by Azure Data Factory. The dataset undergoes a transformative journey through Datab
+### Description:
+This project orchestrates a holistic end-to-end data engineering process on Azure. Beginning with data ingestion from an on-premise PostgreSQL database, it seamlessly flows through Azure Data Lake Gen2, Azure Data Factory, Azure Databricks, and Azure Synapse Analytics. The refined insights are visualized using Power BI and streamlined by an efficient CI/CD pipeline.
 
-- **Data Source:** AdventureWorks dataset in an on-premise PostgreSQL database.
-- **Azure Services Used:**
-  - Azure Data Lake Gen2
-  - Azure Data Factory
-  - Azure Databricks
-  - Azure Synapse Analytics
-  - Power BI
-  - Azure Key Vault
-  - Azure Active Directory
-  - Azure DevOps
+### Key Components:
+-**Data Source:** AdventureWorks dataset in an on-premise PostgreSQL database.
+-**Data Journey:** Ingestion, Transformation, Loading, and Reporting.
+-**Azure Services:** Data Lake Gen2, Data Factory, Databricks, Synapse Analytics, Power BI.
+-**Security & Governance:** Utilizes Azure Key Vault and Azure Active Directory.
+-**CI/CD Pipeline:** Azure DevOps automates deployment, ensuring reliability and efficiency.
+
+Technological Stack: PostgreSQL,Azure Data Lake Gen2, Azure Data Factory,Azure Databricks,Azure Synapse Analytics,Azure Key Vault,Azure Active Directory, Azure DevOps, Power BI.
+**Outcome:**
+An intelligently designed data ecosystem, safeguarded by security protocols and streamlined by an efficient CI/CD pipeline, delivering powerful insights to stakeholders
+
 ## Key Insights
 
 ## 🏗️ Project Architecture
+**herarchy** 
+- Root Directory
+  - Azure Pipeline
+    - Ingestion
+    - Transformation
+    - Loading
+    - Reporting
+  - CI/CD Pipeline
+    - (Demo)
+  - Dashboard
+    - Power BI Format (adventureworkes.pbit)
+    - PDF Format(AdventureWorkDash.png)
+  - Data set
+    - set_up.md
+    - update_csvs.rb
+    - install.sql
+  - Project Architecture (project_arch_adv.png)
+  - Readme file 
 
 ### 3.1. Data Ingestion
 
-Our journey begins as we connect the on-premise PostgreSQL database with Azure using the mystical Microsoft Integration Runtime. With a flick of our wand, we set up a resource group adorned with essential services like the Key Vault, Storage Account, Data Factory, Databricks, and Synapse Analytics. The tables gracefully migrate from the on-premise SQL Server to Azure Data Lake Storage Gen2, ready to embark on their azure adventure.
+Our journey commences by seamlessly connecting the on-premise PostgreSQL database with Azure using the Microsoft Integration Runtime. In the enchanted realm of Azure, we conjure a resource group adorned with essential services like Key Vault, Storage Account, Data Factory, Databricks, and Synapse Analytics. Witness the tables gracefully migrating from on-premise SQL Server to Azure Data Lake Storage Gen2. For a live demonstration, explore the demo file within the Azure Pipeline folder
 
 ### 3.2. Data Transformation
 
-Mounting Azure Blob Storage to Databricks, we retrieve raw data from the azure depths of the Data Lake. With the power of the Spark Cluster in Azure Databricks, we embark on an enchanting journey of data cleaning and refinement. The cleaned data finds its sanctuary in the Delta format, optimized for further azure analysis.
+Mounting Azure Blob Storage to Databricks, we retrieve raw data from the azure depths of the Data Lake. With the power of the Cluster in Azure Databricks, we embark on an enchanting journey of data cleaning and refinement. The cleaned data finds its sanctuary in the Delta format, optimized for further azure analysis.
 
 ### 3.3. Data Loading
-
-Azure Synapse Analytics becomes our sacred ground for loading the refined data efficiently. Here, we create SQL databases and forge azure connections with the azure waters, ready to dive into azure insights.
+Efficiently loaded the refined dataset into Azure Synapse Analytics, establishing a dedicated SQL database
 
 ### 3.4. Data Reporting
 
 With the Azure Synapse as our guide, we connect Microsoft Power BI for  data visualizations, using the Views of the DB.
+### 3.4. CI/CD pipeline
+To keep track of changes in our Databricks notebooks, we've set up a smooth CI/CD pipeline. It acts like our guiding light, making sure everything runs smoothly and efficiently and we are up date
+Dive into the Azure Pipeline folder to check out the demo file.
 
+**remark** : please explore the demo files within the Azure Pipeline folder 
 ## 🌟 Credits
 
 This magnificent azure voyage draws inspiration from the mystical teachings of the YouTube Channel  ["Mr. K Talks Tech"](https://www.youtube.com/watch?v=iQ41WqhHglk)
@@ -55,5 +79,5 @@ This magnificent azure voyage draws inspiration from the mystical teachings of t
 ## 📧 Contact
 
 For any inquiries or to join our azure adventure, feel free to reach out:
-- [Your Email]
-- [Your LinkedIn]
+- [mails](souhaylaelmeftahi@gmail.com)
+- ["LinkedIn"](https://www.linkedin.com/in/souhayla-elmeftahi-49b5251a8/)
